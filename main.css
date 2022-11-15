@@ -1,0 +1,442 @@
+*
+{
+	margin: 0;
+	box-sizing: border-box;
+}
+.container
+{
+	max-width: 1270px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.contact
+{
+	height: 60px;
+	background-color: rgb(48, 89, 66);
+	width: 100%;
+}
+.contactlist
+{
+	float: right;
+	height: 100%;
+
+ }
+.contactlist li
+{
+	float: left;
+	text-decoration: none;
+	margin-right: 24px;
+	list-style-type: none;
+	margin-top: 15px;
+}
+.contactlist li a
+{
+	color: #F3F3F3;
+	text-decoration: none;
+	text-align: left;
+	display: flex;
+	letter-spacing: 0px;
+	align-items:center;
+	font: normal normal 600 18px/24px Open Sans
+}
+.contactlist li a img
+{
+	margin-right: 10px;
+}
+.navbar
+{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-left: 0;
+}
+.navbar li
+{
+	float: left;
+	list-style-type: none;
+	margin-right: 28px;
+}
+.navbar li a
+{
+	text-decoration: none;
+	color: #979797;
+	font: normal normal 600 18px/33px Open Sans;
+}
+.navbar li a:hover
+{
+	color:#305942;
+}
+.navbar li img
+{
+	margin-right: 40px;
+	margin-top: -40px;
+	background-color: white;
+	border-top-left-radius:85px;
+	border-top-right-radius:85px;
+}
+.hospimg
+{
+	float: left;
+	margin-right: 20px;
+}
+.hairlossh
+{
+	margin-top: -12px;	 
+	float: left;
+	text-align: left;
+	font: normal normal bold 24px Open Sans;
+	letter-spacing: 0px;
+	color: #305942;
+	text-transform: capitalize;
+	opacity: 1;
+
+}
+.hairlossp
+{
+
+	width: 1150px;
+	text-align: left;
+	font: normal normal normal 24px Open Sans;
+	letter-spacing: 0px;
+	color: #305942;
+	opacity: 1;
+}
+.tb
+{
+	text-align: center; 
+	border: 1px solid black;
+	width: 237px;
+	height: 190px;
+	padding: 45px;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	font: normal normal 800 24px Open Sans;
+	letter-spacing: 0px;
+	color: #305942;
+	text-transform: capitalize;
+	opacity: 1;
+	border: none;
+	border-radius: 10px;
+	padding-top: 60px;
+	box-shadow: 0px 0px 46px #00000029;
+}
+.tb:hover
+{
+	color: white;
+	background-color: #305942;
+}
+.bottomline
+{
+	width: 100%;
+    padding-bottom: 20px;
+	background-color: #AFBD7782;
+	margin-top: 50px;
+	padding-top: 20px;
+	
+}
+.head
+{
+	text-align: center;
+	color: #305942;
+	font: normal normal bold 48px Open Sans;
+
+}
+.bottomline p
+{
+	text-align: left;
+	font: normal normal normal 28px/38px Open Sans;
+	letter-spacing: 0px;
+	color: #305942;
+	opacity: 1;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+.questions
+{
+	border: 1px solid grey;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+.que 
+{
+	 
+	font-weight: bold;
+	color: #305942;
+	float: left;
+	 
+	font-size: 26px;.
+}
+.drop
+{
+	padding-top: 5px;
+ 
+
+}
+.male
+{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font: normal normal 800 40px/55px Open Sans;
+letter-spacing: 0px;
+color: #305942;
+text-transform: capitalize;
+opacity: 1;
+}
+.malepatternp ,.minoxidilp
+{
+	 
+text-align: left;
+font: normal normal normal 28px/41px Open Sans;
+letter-spacing: 0px;
+color: #305942;
+opacity: 1;
+ 
+
+
+}
+.quickdiv
+{
+	background-color: #305942;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.quickdiv h1
+{
+	text-align: center;
+font: normal normal 800 40px/55px Open Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: capitalize;
+opacity: 1;
+}
+.quickdiv p
+{
+	text-align: center;
+	font: normal normal normal 22px Open Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+ }
+.qtb
+{
+	margin-top: 30px;
+	text-align: center; 
+	border: 1px solid black;
+	width: 350px;
+	height: 170px;
+	padding: 45px;
+	float: left;
+	margin-right: 80px;
+	text-align: center;
+	font: normal normal 800 24px Open Sans;
+	letter-spacing: 0px;
+	color: #305942;
+	text-transform: capitalize;
+	opacity: 1;
+	border: none;
+	border-radius: 10px;
+	padding-top: 60px;
+	box-shadow: 0px 0px 46px #00000029;
+}
+.qtb:hover
+{
+	color: white;
+	background-color: #305942;
+}
+.avail
+{
+	text-align: center;
+font: normal normal 800 40px/55px Open Sans;
+letter-spacing: 0px;
+color: #AFBD77;
+text-transform: capitalize;
+opacity: 1;
+}
+.availp
+{
+	color: #305942;
+	text-align: center;
+
+font: normal normal normal 30px/41px Open Sans;
+letter-spacing: 0px;
+ 
+opacity: 1;
+}
+.minoxidil
+{
+	 color: #305942;
+   
+}
+.effects
+{
+	list-style-type: none;
+}
+.finainfo
+{
+	float: left;
+	width: 50%;
+
+}
+.option 
+{
+	text-align: left;
+letter-spacing: 0px;
+color: #305942;
+opacity: 1;
+}
+.optionp
+{
+	text-align: left;
+font: normal normal normal 24px/41px Open Sans;
+letter-spacing: 0px;
+color: #305942;
+}
+.headingstrip
+{
+	text-align: left;
+font: normal normal bold 32px/41px Open Sans;
+letter-spacing: 0px;
+color: #305942;
+}
+.strip
+{
+	text-align: left;
+font: normal normal normal 24px/41px Open Sans;
+letter-spacing: 0px;
+color: #305942;
+}
+.fpds
+{
+	padding-top: 30px;
+}
+.fpds p
+{
+	text-align: left;
+font: normal normal normal 24px/41px Open Sans;
+letter-spacing: 0px;
+color: #305942;
+opacity: 1;
+}
+.femaletable
+{
+	border-collapse: collapse;
+}
+.femaletable th
+{
+	background-color: #305942;
+	 
+	height:75px;
+	text-align: center;
+font: normal normal 800 32px/55px Open Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: capitalize;
+opacity: 1;
+}
+.femaletable tr td
+{
+	padding-top: 10px;
+	text-align: left;
+font: normal normal normal 24px/41px Open Sans;
+letter-spacing: 0px;
+color: #305942;
+opacity: 1;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+footer{
+    background-color: #033B4A;
+}
+.top-foot{
+    padding-top: 15px;
+}
+.head-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+    padding: 15px 0;
+}
+.serch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.src-txt p{
+    padding-right: 30px;
+    color: #fff;
+}
+.srch-btn{
+    position: relative;
+}
+.srch-btn input{
+    border-radius: 30px ;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    padding-left: 15px;
+}
+.src-icon{
+    background-color: #AFBD77;
+    border-radius: 0px 30px 30px 0px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 107px;
+    height: 36px;
+    text-align: center;
+}
+.src-icon img{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.ftable
+{
+	color: white;
+	margin-top: 20px;
+	padding: 20px;
+}
+.ftable th
+{
+width: 	20%;
+}
+.ftable td
+{
+	padding-left: 5%;
+}
+.links li:hover
+{
+	list-style-type: square;
+	 
+}
+.links li a
+{
+	color: white;
+	font-size: 18px;
+}
+.links li a:hover
+{
+	color: #AFBD77;
+	
+}
